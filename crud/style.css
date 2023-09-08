@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+main{
+  background-color: rgb(255, 155, 155);
+  max-width: 1024px;
+  width: 90vw;
+  margin: 1rem auto;
+}
+form{
+  padding: 1rem;
+}
+fieldset{
+  border: 0;
+}
+#respuesta{
+  display: none;
+  padding: 1rem;
+  margin: .5rem;
+  background-color: red;
+  color: white;
+}
